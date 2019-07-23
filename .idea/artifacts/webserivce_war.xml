@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="webserivce:war">
+    <output-path>$PROJECT_DIR$/web-serivce/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>webserivce</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="web-serivce.war">
+      <element id="artifact" artifact-name="webserivce:war exploded" />
+    </root>
+  </artifact>
+</component>
